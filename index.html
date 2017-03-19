@@ -1,0 +1,385 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="imagetoolbar" content="no" />
+	<title>Ремонт квартир по ключ</title>
+	  <link href="favicon.ico" rel="shortcut icon" type="favicon.icon" />
+	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="screen" />
+	
+	
+	
+				<script type="text/javascript" src='comm.js'></script>
+<script type="text/javascript" src='JsHttpRequest.js'></script>
+	
+	
+	
+<script type="text/javascript" src="script/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="script/jquery.cookie.js"></script>
+<script type="text/javascript" src="script/script.js"></script>
+
+<script type="text/javascript" src="script/jquery-1.js"></script>
+<script type="text/javascript" src="script/tools.js"></script>
+<link rel="stylesheet" href="script/style.css" type="text/css">
+	<script type="text/javascript" async="" src="script/watch.js"></script>
+	<script type="text/javascript" src="script/jquery.cookie.js"></script>
+	
+		<script type="text/javascript" src="jquery.validate.pack.js"></script>
+	
+	
+
+		
+	<!-- Add fancyBox -->
+	<script type="text/javascript">
+	var myDate = new Date();
+	function returnEndDate(d,h,m){
+		myDate.setDate(myDate.getDate()+d);
+		myDate.setHours(myDate.getHours()+h);
+		myDate.setMinutes(myDate.getMinutes()+m);
+		return myDate;
+	}
+	if($.cookie("timer")){
+		var dateEnd = $.cookie("timer");
+	}else{
+		var dateEnd = returnEndDate(2,0,0);
+		$.cookie("timer", dateEnd, {expires: 2});
+	}
+	</script>
+	<script type="text/javascript" src="fancybox/jquery-1.3.2.min.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.fancybox-1.2.1.pack.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("a.gallery, a.iframe").fancybox();
+		
+url = $("a.modalbox").attr('href').replace("for_spider","content2");
+$("a.modalbox").attr("href", url);	
+$("a.modalbox").fancybox(
+{								  
+			"frameWidth" : 400,	 
+			"frameHeight" : 400 
+								  
+});
+
+			$("a.gallery2").fancybox(
+			{						
+"padding" : 20, // отступ контента от краев окна
+"imageScale" : false, // Принимает значение true - контент(изображения) масштабируется по размеру окна, или false - окно вытягивается по размеру контента. По умолчанию - TRUE
+			"zoomOpacity" : false,	// изменение прозрачности контента во время анимации (по умолчанию false)
+			"zoomSpeedIn" : 1000,	// скорость анимации в мс при увеличении фото (по умолчанию 0)
+			"zoomSpeedOut" : 1000,	// скорость анимации в мс при уменьшении фото (по умолчанию 0)
+			"zoomSpeedChange" : 1000, // скорость анимации в мс при смене фото (по умолчанию 0)
+			"frameWidth" : 700,	 // ширина окна, px (425px - по умолчанию)
+			"frameHeight" : 600, // высота окна, px(355px - по умолчанию)
+			"overlayShow" : true, // если true затеняят страницу под всплывающим окном. (по умолчанию true). Цвет задается в jquery.fancybox.css - div#fancy_overlay 
+			"overlayOpacity" : 0.8,	 // Прозрачность затенения 	(0.3 по умолчанию)
+			"hideOnContentClick" :false, // Если TRUE  закрывает окно по клику по любой его точке (кроме элементов навигации). Поумолчанию TRUE		
+			"centerOnScroll" : false // Если TRUE окно центрируется на экране, когда пользователь прокручивает страницу		
+				
+			});
+		
+		$("#menu a, .anim").hover( function() {
+      $(this).animate({"paddingLeft" : "10px"}, 300)},
+	  function() {$(this).animate({"paddingLeft" : "0"}, 300);
+});
+
+$("a.iframe").fancybox(
+{								  
+			"frameWidth" : 800,	 // ширина окна, px (425px - по умолчанию)
+			"frameHeight" : 400 // высота окна, px(355px - по умолчанию)
+								  
+});
+
+		
+		});
+	</script>
+
+</head>
+ 
+
+<body>
+	<div class="top1">
+		<div class="top-1">
+		<table class="head1">
+			<tr>
+				<td width="450"><img src="images/logo2.png" align="left" style="margin-right:5px"/><p style="font-size:25px; margin-top:17px; font-weight:900">Компания "Ваш Сервис"</p></td>
+				<td width="250"> </td>
+				<td width="280"><p style="font-size:25px; margin-top:10px; font-weight:100; margin-bottom:8px; text-decoration:none; color:#000000" class="telephone">+7 (917) 542 37 03</p><a class="iframe"  href="zvonok.html"><img src="images/zvonok.png" class="knopka"/></a></td>
+			</tr>
+		</table>
+		<h1>Комплексный ремонт квартир</h1>
+		
+		
+		
+		
+		
+		<!-----top---->
+		<div>
+	
+	<table class="kontaktih">
+	<tr>
+	<td width="690" valign="top">
+		<h2>Акция!</h2>
+		<p>Профессиональная уборка<br />
+		после ремонта<br /> <b>в подарок.</b></p>
+	</td>
+	<td width="300">
+		<!-----forma---->
+		<div class="form0">
+			<h5>Заполните заявку<br />прямо сейчас</h5>
+				
+<iframe src="zakaz1.html" width="91%" height="230" frameborder="1"> </iframe>
+		</div>
+		<!------end forma----->
+	</td>
+	</tr>
+	</table>
+	</div>
+		<!------end top----->
+		
+		
+		
+		
+		
+		
+		
+		</div>
+	
+	</div>
+		<!-------actsia-------->
+		<div class="top3 time">
+		<table>
+		<tr>
+		<td><h2>До окончания акции осталось:</h2></td>
+		<td>
+		<!---------------timer------>
+		<div class="timer_wrap">
+					<div class="day">
+						<p class="day0">0</p>
+						<p class="day1">0</p>
+					</div>
+					<div class="razd"></div>
+					<div class="hour">
+						<p class="hour0">0</p>
+						<p class="hour1">0</p>
+					</div>
+					<div class="razd"></div>
+					<div class="min">
+						<p class="min0" style="margin-top: 0px; opacity: 1;">0</p>
+						<p class="min1" style="margin-top: 0px; opacity: 1;">0</p>
+					</div>
+					<div class="razd"></div>
+					<div class="sec">
+						<p class="sec0" style="margin-top: 0px; opacity: 1;">0</p>
+						<p class="sec1" style="margin-top: 0px; opacity: 1;">0</p>
+					</div>
+				</div>
+<!---------------/timer------>	
+		</td>
+		</tr>
+		</table>
+		</div>
+	<!-------vigoda-------->
+	<div class="top2">
+		<table class="arial vigoda">
+			<tr valign="top">
+			<td>
+				<img src="images/garant.png"/>
+				<h4>100% гарантия сроков</h4>
+			</td>
+			<td>
+			<img src="images/rezult.png" />
+				<h4>78 реализованных проектов за 2012 год</h4>
+			</td>
+			<td>
+			<img src="images/smeta.png" />
+				<h4>Составление сметы <b>БЕСПЛАТНО</h4>
+			</td>
+			<td>
+			<img src="images/hand.png" />
+				<h4>Стоимость ремонта от 1500 за м2</h4>
+			</td>
+			</tr>
+		</table>
+	</div>
+		<!-------primeri proektam-------->
+	<div class="top4">
+	<h1>Примеры реализованных нами проектов</h1>
+		<div class="otziv">
+		<!-- responses -->
+                        <div class="responses">
+                            <div class="responses-content">
+                                <ul>
+                                    <li>
+                                        <div class="response-text"><a href="images/komnata/img/k2.jpg" class="gallery" rel="group"><img src="images/komnata/k2.jpg"/></a><a href="images/komnata/img/k1.jpg" class="gallery" rel="group"><img src="images/komnata/k1.jpg"/></a><a href="images/komnata/img/k3.jpg" class="gallery" rel="group"><img src="images/komnata/k3.jpg"/></a></div>
+                                        <div class="response-author">г. Долгопрудный, ул. Первомайская д. 17</div>
+                                    </li>
+                                    <li>
+                                        <div class="response-text"><a href="images/komnata/img/k4.jpg" class="gallery" rel="group"><img src="images/komnata/k4.jpg"/></a><a href="images/komnata/img/k5.jpg" class="gallery" rel="group"><img src="images/komnata/k5.jpg"/></a><a href="images/komnata/img/k6.jpg" class="gallery" rel="group"><img src="images/komnata/k6.jpg"/></a></div>
+                                        <div class="response-author">г. Зеленоград ул. Юности д. 15</div>
+                                    </li>
+                                    <li>
+                                        <div class="response-text"><a href="images/komnata/img/k7.jpg" class="gallery" rel="group"><img src="images/komnata/k7.jpg"/></a><a href="images/komnata/img/k8.jpg" class="gallery" rel="group"><img src="images/komnata/k8.jpg"/></a><a href="images/komnata/img/k9.jpg" class="gallery" rel="group"><img src="images/komnata/k9.jpg"/></a></div>
+                                        <div class="response-author">г. Одинцово ул. Чистяковой д. 40</div>
+                                    </li>
+									 <li>
+                                        <div class="response-text"><a href="images/komnata/img/k10.jpg" class="gallery" rel="group"><img src="images/komnata/k10.jpg"/></a><a href="images/komnata/img/k11.jpg" class="gallery" rel="group"><img src="images/komnata/k11.jpg"/></a><a href="images/komnata/img/k12.jpg" class="gallery" rel="group"><img src="images/komnata/k12.jpg"/></a></div>
+                                        <div class="response-author">ЖК Алые паруса, кор. 2</div>
+                                    </li>
+									 <li>
+                                        <div class="response-text"><a href="images/komnata/img/k13.jpg" class="gallery" rel="group"><img src="images/komnata/k13.jpg"/></a><a href="images/komnata/img/k14.jpg" class="gallery" rel="group"><img src="images/komnata/k14.jpg"/></a><a href="images/komnata/img/k15.jpg" class="gallery" rel="group"><img src="images/komnata/k15.jpg"/></a></div>
+                                        <div class="response-author">Мичуринский проспект д. 26</div>
+                                    </li>
+									 <li>
+                                        <div class="response-text"><a href="images/komnata/img/k16.jpg" class="gallery" rel="group"><img src="images/komnata/k16.jpg"/></a><a href="images/komnata/img/k17.jpg" class="gallery" rel="group"><img src="images/komnata/k17.jpg"/></a><a href="images/komnata/img/k18.jpg" class="gallery" rel="group"><img src="images/komnata/k18.jpg"/></a></div>
+                                        <div class="response-author">Проспект Вернадского д. 33</div>
+                                    </li>
+									 <li>
+                                        <div class="response-text"><a href="images/komnata/img/k19.jpg" class="gallery" rel="group"><img src="images/komnata/k19.jpg"/></a><a href="images/komnata/img/k20.jpg" class="gallery" rel="group"><img src="images/komnata/k20.jpg"/></a><a href="images/komnata/img/k21.jpg" class="gallery" rel="group"><img src="images/komnata/k21.jpg"/></a></div>
+                                        <div class="response-author">ул. Миклухо-Маклая д. 36 кор. 1</div>
+                                    </li>
+									 <li>
+                                        <div class="response-text"><a href="images/komnata/img/k22.jpg" class="gallery" rel="group"><img src="images/komnata/k22.jpg"/></a><a href="images/komnata/img/k23.jpg" class="gallery" rel="group"><img src="images/komnata/k23.jpg"/></a><a href="images/komnata/img/k24.jpg" class="gallery" rel="group"><img src="images/komnata/k24.jpg"/></a></div>
+                                        <div class="response-author">Ул. Нежинская д. 13</div>
+                                    </li>
+									 <li>
+                                        <div class="response-text"><a href="images/komnata/img/k25.jpg" class="gallery" rel="group"><img src="images/komnata/k25.jpg"/></a><a href="images/komnata/img/k26.jpg" class="gallery" rel="group"><img src="images/komnata/k26.jpg"/></a><a href="images/komnata/img/k27.jpg" class="gallery" rel="group"><img src="images/komnata/k27.jpg"/></a></div>
+                                        <div class="response-author">Ул. Туристская д. 13 кор. 1</div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="responses-ctrl"></div>
+                            <a href="http://remontvs.ru/#" class="responses-prev"></a>
+                            <a href="http://remontvs.ru/#" class="responses-next"></a>
+                        </div>
+                        <!-- responses END -->
+		</div>
+	</div>
+	<!---------problemi 90------------->
+	<div class="top2">
+			<h1>Проблемы, с которыми сталкиваются 90% клиентов</h1>
+			<div class="top-2">
+			<ul class="list">
+				<li><img src="images/trouble.png" align="left" /><b>1. Организация срывает сроки. </b><p>В результате Ремонтные работы затягиваются, и вы теряете время и деньги.</p></li>
+				<li><img src="images/trouble.png" align="left" /><b>2. Использование некачественных материалов. </b><p>Под видом качественного материала, обозначенного в смете, организация, в целях собственной экономии, использует материалы низкого качества, что приводит к быстрому износу.</p></li>
+				<li><img src="images/trouble.png" align="left" /><b>3. Неадекватная цена. </b><p>Зачастую компании искусственно занижают цены, привлекая к себе клиента, и не выполняет своих обязательств перед ним.</p></li>
+				<li><img src="images/trouble.png" align="left" /><b>4. Неквалифицированный персонал. </b><p>В целях экономии, для выполнения разноплановых ремонтных работ, организации привлекают не обученный должным образом персонал (сантехнику делает электрик), а также дешевую непрофессиональную рабочую силу.</p></li>
+				<li><img src="images/trouble.png" align="left" /><b>5. Кидают. </b><p>Предлагают неадекватно низкое по цене предложение, берут предоплату и пропадают.</p></li>
+			
+			</ul>
+			</div>
+	</div>
+	<!-------kak mi rabotaem-------->
+	<div class="top4">
+	<h1>Как мы работаем</h1>
+	<img src="images/work.png" />
+	</div>
+	<!-------vibiraut nas-------->
+<div class="top2">
+			<h1>Почему клиенты выбирают нас</h1>
+			<div class="top-2">
+			<ul class="list">
+				<li><img src="images/usl.png" align="left" /><b>1. За нами не переделывают. </b><p>Все наши объекты сдаются в обозначенные договором сроки. </p></li>
+				<li><img src="images/usl.png" align="left" /><b>2. С нами легко.</b><p>Мы специализируемся на комплексных ремонтных работах ("под ключ"). После согласования сметы и подписания договора, Ваше следующее действие - прием в срок выполненных работ.</p></li>
+				<li><img src="images/usl.png" align="left" /><b>3. Прозрачная система оплаты. </b><p>Оплата производится поэтапно, по факту выполнения работ, обозначенных в договоре.</p></li>
+				<li><img src="images/usl.png" align="left" /><b>4. Опытные мастера.</b><p>У нас работают профессионалы, славяне с опытом работы от 3 лет. Опыт работы прорабов не менее 5 лет. Различные виды работ выполняются профильными специалистами.</p></li>
+				<li><img src="images/usl.png" align="left" /><b>5. Качественные материалы. </b><p>Мы закупаем материалы для ремонта напрямую у производителей, отсюда 100% заводская гарантия на весь гарантийный срок. Все материалы имеют экологический сертификат соответствия ISO 9001. </p></li>
+			
+			</ul>
+			</div>
+	</div>
+	<!-------otzivi-------->
+	<div class="top4"  style="padding-bottom:50px; border-bottom:1px solid #222222">
+	<h1>Отзывы клиентов</h1>
+		<table class="otzivi" cellspacing="0" cellpadding="20">
+		<tr valign="top">
+			<td>
+			<div class="ava"><img src="images/ava1.jpg"/></div>
+			<h5>Ольга Казакова, г. Москва</h5>
+			<p>Недавно купили квартиру. Состояние её оставляло желать лучшего, ей необходим был грандиозный ремонт. Поняли, что самим нам с таким объёмом работ не справиться. Через друзей узнали об этой компании. Отзывы были только положительные. И мы, не задумываясь, связались с мастерами этой фирмы. Буквально на днях закончились отделочные работы. Такую красоту хоть для глянцевых журналов фотографируй! Спасибо! </p>
+
+			</td>
+			
+			<td>
+			<div class="ava"><img src="images/ava2.jpg"/></div>
+			<h5>Кристина, г. Москва</h5>
+			<p>Решила преобразить интерьер и полностью все поменять. Подвесные потолки, шикарная ванная комната в зеркалах, везде подсветка, в общем супер-пупер. Мама нашла этот сайт, и я договорилась о встрече с дизайнером. Он мне еще пару идей посоветовал. Все подружки теперь завидуют, какая у меня красивая квартира. </p>
+			
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+			<div class="ava"><img src="images/ava3.jpg"/></div>
+			<h5>Александр, г. Зеленоград</h5>
+			<p>Заказывал капитальный ремонт, остался очень доволен. Работа выполнена в срок и качественно. Ничего не сыпется, не ломается, сразу видно простоит не год и не десять. Особенно доволен остался ванной, переживал за качество установки сантехники больше всего и тут все сделано на 5+!</p>
+		
+			</td>
+			<td>
+			<div class="ava"><img src="images/ava4.jpg"/></div>
+			<h5>Руслан Дробов, г. Москва</h5>
+			<p>Выражаю огромную благодарность сотрудникам за высококачественную и добросовестную работу, за профессионализм, аккуратность, своевременность и за хорошее отношение к заказчику.</p>
+			
+			</td>
+		</tr>
+				<tr valign="top">
+			<td>
+			<div class="ava"><img src="images/ava5.jpg"/></div>
+			<h5>Михаил, г. Москва</h5>
+			<p>Я заказчик Созинов М.A. выражаю искренную благодарность сотрудникам компании Ваш Сервис за проведенный ремонт квартиры. За четкое, профессиональное решение проблем, за безупречное качество выполненных работ, работали «как для себя». Большое спасибо Вам! </p>
+			
+			</td>
+			
+			<td>
+			<div class="ava"><img src="images/ava6.jpg"/></div>
+			<h5>Светлана Аниссимова, г. Одинцово</h5>
+			<p>Спасибо, мужу и мне очень нравится. Дети еще не видели, но думаю им тоже понравится когда увидят. Соседи спрашивали Ваш телефон, я им дала. Еще раз спасибо, успехов в труде.</p>
+			
+			</td>
+		</tr>
+		</table>
+	</div>
+	<!-------zaiavka-------->
+	<div class="top4" style="margin-top:50px">
+	<h1>Вы можете оставить заявку или согласовать осмотр объекта, на котором мы сейчас работаем.</h1>
+	<table class="kontakti">
+	<tr>
+	<td width="600">
+<div class="icon"><img src="images/email.png" align="left"/><p><a href="mailto:77remont@inbox.ru">77remont@inbox.ru</a></p></div>
+<div class="icon"><img src="images/tel.png" align="left"/><p>+7(917) 542 37 03</p></div>
+<div class="icon"><img src="images/tel.png" align="left"/><p>+7(917) 542 37 03</p></div>
+	</td>
+	<td width="300">
+		<!-----forma---->
+		<div class="form1" id="form1">
+			<h5>ОСТАВИТЬ ЗАЯВКУ</h5>
+			
+<iframe src="zakaz2.html" width="91%" height="230" frameborder="1"> </iframe>
+
+		
+	   
+	</form>
+		</div>
+		<!------end forma----->
+	</td>
+	</tr>
+	</table>
+	</div>
+		<!------partneri----->
+	<div class="top2" style="margin-top:50px; background:#f3f3f3">
+	<h1>Наши партнеры</h1>
+	<img src="images/partneri.jpg"/>
+	</div>
+			<!------footer----->
+	<div class="top4" style="margin-top:30px">
+		<table>
+			<tr>
+				<td width="310"><img src="images/logo2.png" align="left" style="margin-right:5px"/><p style="font-size:16px; margin-top:17px; font-weight:900">Компания "Ваш Сервис"</p></td>
+				<td width="350"><a href="http://www.onlymaster.ru/lp" target="_blank"><img src="images/om.png"/></a></td>
+				<td width="280"><p style="font-size:25px; margin-top:17px; font-weight:100; margin-bottom:8px; text-decoration:none; color:#000000" class="telephone">+7 (917) 542 37 03</p><a class="iframe"  href="zvonok.html"><img src="images/zvonok.png" class="knopka"/></a></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

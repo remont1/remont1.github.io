@@ -1,0 +1,208 @@
+body{font-family:arial}
+*{margin:0}
+img{border:none}
+.top1{background:url(images/header.jpg); background-repeat:no-repeat; text-align:center; background-position:center; width:100%; height:500px}
+.top1 h1{font-size:42px; margin-top:0px; padding-top:5px}
+.top .kontakti{margin-top: 5px; margin-bottom: 0px;}
+.top-line{width:100%; background:url(images/line-top.png); height:6px}
+.top-1{width:1000px; text-align:center; margin:0 auto; text-align:center}
+.top-1 p{margin-top:20px; font-size:16px;  text-align:center}
+.arial{font-family:Arial}
+.top3{background:#fafafa;  width:100%; height:90px; padding-top:0px; padding-bottom:40px; margin:0 auto; text-align:center; border-top:1px solid #e0e0e0;}
+.top3 table{margin:0 auto; width:1000px}
+.top2{background:#f3f3f3;  width:100%; padding-top:0px; padding-bottom:40px; margin:0 auto; text-align:center; border-top:1px solid #e0e0e0; border-bottom:1px solid #e0e0e0}
+.top-2{width:1000px; text-align:center; margin:0 auto; }
+.top-2 ul{margin-top:50px; text-align:left; margin-left:50px; margin-right:50px; padding-left:0px}
+.top-2 li{list-style:none; margin-top:20px}
+.top-2 b{font-size:24px}
+.top-2 .list img{margin-right:10px}
+.top-2 .list p{margin-left:48px; text-align:justify}
+.vigoda{color:#222222; margin:0 auto; padding-top:40px}
+.vigoda td{text-align:center; width:200px}
+.vigoda h4{margin-top:20px}
+	
+.head1{border-bottom:1px solid #d0cecf}
+.vigoda p{font-size:15px; margin-top:30px}
+.top4{width:1000px; text-align:center; margin:0 auto}
+h1{color:#222222; text-align:center; font-size:32px; padding-top:30px; font-weight:100}
+
+.ava{float:left; margin-right:10px}
+.otzivi{margin-top:50px}
+.otzivi td{width:500px; text-align:left; font-style:italic;}
+.otzivi p{font-size:12px; font-style:italic; text-align:left; margin-top:10px; margin-bottom:10px;margin-left: 190px;}
+.otzivi a{color:#ff0000}
+h5{font-size:18px; font-weight:100}
+
+.otziv{width:950px; margin:0 auto}
+.telephone span, p,a{text-decoration:none}
+.telephone a:hover{text-decoration:none}
+
+
+.icon{height:73px}
+.icon img{float:left}
+.icon p{font-size:35px; float:left; margin-left:15px; margin-top:8px; color:#000000; text-decoration:none}
+.head1{text-decoration:none}
+.time h2{font-size:40px}
+.icon a{color:#222222}
+.kontakti{ margin-top:50px; margin-bottom:50px}
+.kontaktih{height:60px; margin-top:15px}
+.kontaktih h2{font-size:58px; text-align:left; margin-left:20px}
+.kontaktih p{font-size:35px; text-align:left; margin-top:0px; margin-left:20px}
+.form0{width:288px; height:275px; background:url(images/form.png)}
+.form0 h5{padding-top:10px; font-size:22px}
+.form0 .forma{width:230px; height:20px; padding:5px; margin-top:7px; background:#fafafa; border:#cccccc 1px solid; color:#555555; font-size:15px}
+
+.form1{width:288px; height:275px; background:url(images/form.png)}
+.form1 h5{padding-top:15px; font-size:25px}
+.form1 .forma{width:230px; height:20px; padding:5px; margin-top:15px; background:#fafafa; border:#cccccc 1px solid; color:#555555; font-size:15px}
+
+.botton{background:url(images/form0.png); margin-top:15px; height: 41px; width:211px; border:none}
+.botton:hover{opacity:0.5}
+.botton1{background:url(images/form1.png); margin-top:15px; height: 41px; width:211px; border:none}
+.botton1:hover{opacity:0.5}
+.knopka:hover{opacity:0.5}
+
+.responses {position:relative; padding:0 0 63px 0}
+.responses-content {width:100%; position:relative; overflow:hidden; padding:35px 0 0 0}
+.responses-content ul {position:relative; margin:0; padding:0; list-style-type:none; width:9999px}
+.responses-content ul li {float:left; width:960px; margin:0; padding:0}
+.response-text {font-size:16px; padding:0 100px; text-align:center; line-height:25px; font-style:italic}
+.response-author {font-weight:bold; text-align:center; padding:9px 100px 0 100px}
+.response-author span {color:#888}
+.responses-prev,
+.responses-next {display:block; position:absolute; width:19px; height:36px; background:url(images/response.png); top:43px}
+.responses-prev {left:0}
+.responses-next {right:0; background-position:-19px top}
+.responses-prev:hover {background-position:left -36px}
+.responses-next:hover {background-position:-19px -36px}
+.responses-ctrl {text-align:center; font-size:0; line-height:0; letter-spacing:-5px; padding:35px 0 0 0}
+.responses-ctrl a {display:inline-block; width:16px; height:16px; margin:0 2px 0 3px; background:url(images/responsf.png)}
+.responses-ctrl a:hover {background-position:left -16px}
+.responses-ctrl a.active {background-position:left -32px}
+.response-text img{border:5px #d7d7d7 solid; margin-left:25px; margin-right:25px}
+.responses span{margin-left:20px}
+
+/*ТАЙМЕР*/
+		.timer_wrap {
+		font-family: 'Open Sans Condensed', sans-serif;
+		border: 0px;
+		width: 460px;
+		padding: 22px 0 23px 0;
+		height: 76px;
+		font-size: 47px;
+		color: #fff;
+		float: left;
+		}		
+		.razd{
+		float:left;
+		width:19px;
+		height: 72px;
+		margin-top:2px;
+		background:url(../images/razd.png);
+		}
+			.hour,.min,.sec,.day {
+			background: url(../images/time.png) left center no-repeat;
+			float: left;
+			width: 99px;
+			height: 51px;
+			position: relative;
+			display: block;
+			padding: 12px 0px;
+			margin-left: 1px;
+			background-position: 0px 5px;
+			}.day{margin-left: 0px;}
+			p.hour0,p.min0,p.sec0 {
+			}
+			p.day0 {
+			}
+			.timer_wrap  p {
+			margin:0px;
+			padding:0px;
+			float:left;
+			width: 46px;
+			text-align: center;
+			}
+			p.sec1,p.min1,p.hour1,p.day1 {
+			float: left;
+			margin-left: 7px;
+			}
+			.lt{
+			width:50px;
+			height:1px;
+			background:#bcbbbb;
+			position: relative;
+			top: 13px;
+			}
+			#stop {
+			color:white;
+			margin:15px 10px 10px 25px;
+			position:absolute;
+			}
+			.timer_wrap span{
+			font-size:18px;
+			position: relative;
+			top: -5px;
+			left: 1px;
+			}
+		/*ТАЙМЕР*/
+		
+		
+		
+		/*THANK BOX END*/
+
+.feedBackBox {
+    color: #000000;
+    display: none;
+    font-size: 14pt;
+    height: 275px;
+    left: 50%;
+    line-height: 23pt;
+    margin: -107px 0 0 -144px;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    width: 288px;
+    z-index: 3;
+	border:none;
+	background:url(images/forma.png)
+}
+.feedBackBox .form {
+	margin:0;
+}
+.fLineSubmit input{background:url(images/zvonok.png); width:244px; height:48px; border:none}
+.fLineSubmit input:hover{opacity:0.7}
+.feedBackBox{}
+.fLine{border:none;}
+.fLine input{width:220px; padding:5px}
+.fTitle{border:none; padding:0px;}
+.fLineSubmit{border:none}
+.closePopUpLink{margin-top:5px}
+.overlay {
+	background:rgba(0,0,0,0.7);
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	display:none;
+	cursor:crosshair;
+	z-index:2;
+}
+.thankBox {
+    background: url("../images/thankBox.html") no-repeat scroll 0 0 transparent;
+    color: #000000;
+    display: none;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14pt;
+    height: 230px;
+    left: 50%;
+    line-height: 23pt;
+    margin: -107px 0 0 -144px;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    width: 288px;
+    z-index: 3;
+}
+.error{font-size:12px}
+iframe{border:none}
