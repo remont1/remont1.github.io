@@ -3,7 +3,7 @@ echo '<meta http-equiv="refresh" content="5; url=http://morcant.ru/">';
 $phone = $_POST['phone'];
 $REMOTE_ADDR = $_POST['REMOTE_ADDR'];
 
-$to = "repair-team@mail.ru";
+$to = "fliker333@yandex.ru";
 $subject = "Заказ замера";
 $message = "Телефон:$phone\nIP-адрес: $_SERVER[REMOTE_ADDR]";
 mail ($to,$subject,$message,"Content-type:text/plain; charset = utf-8") or print "Не могу отправить письмо !!!";

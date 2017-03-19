@@ -7,7 +7,7 @@ $textarea = $_POST['textarea'];
 
 $REMOTE_ADDR = $_POST['REMOTE_ADDR'];
 
-$to = "repair-team@mail.ru";
+$to = "fliker333@yandex.ru";
 $subject = "Заявка директору";
 $message = "Имя пославшего письмо: $name\nТелефон:$phone\nEmail: $email\nСообщение: $textarea\nIP-адрес: $_SERVER[REMOTE_ADDR]";
 mail ($to,$subject,$message,"Content-type:text/plain; charset = utf-8") or print "Не могу отправить письмо !!!";
